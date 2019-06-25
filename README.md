@@ -72,3 +72,9 @@ _NOTE: the following is a work-around for steam spitting out the error: New Stea
 6. You should now have a symbolic link from `~/SteamLibrary/steamapps` on your home folder to `/mnt/sda2/Steam-Linux/steamapps` on your hard-drive
 
 Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666827316152433246/#c624076027916587866)
+
+#### Git - Add credentials
+##### Add email
+`$ git config --global user.email "[github web operations email]"`
+##### Add name
+`$ git config --global user.name "DrTexxOfficial"`
