@@ -8,12 +8,13 @@
 - `$ sudo pacman -S redshift` (Redshift)
 
 ### Configure
+#### Fix slow internet
 <details>
-  <summary>Fix Slow internet</summary>
   <ol>
     <li>Open KDE Connections Manager</li>
     <li>Change the MTU of your wired connection from 'automatic' to '1492' (bytes)</li>
-    <li>Configure repos to local mirrors `$ sudo pacman-mirrors -g`</li>
+    <li>Configure repos to local mirrors</li>
+    <code>$ sudo pacman-mirrors -g</code>
     <li>Reboot</li>
 </details>
 
@@ -24,9 +25,13 @@
 
 ### Configure
 #### PS3 Controller -  Connect via USB
-2. `$ systemctl start bluetooth.service`
-3. Plug in controller via USB
-4. Check xpad is installed and up-to-date `$ sudo pacman -S xpad` ***NECESSARY?***
+<details>
+  <ol>
+    <li>`$ systemctl start bluetooth.service`</li>
+    <li>Plug in controller via USB</li>
+    <li>Check xpad is installed and up-to-date `$ sudo pacman -S xpad` ***NECESSARY?***</li>
+  </ol>
+</details>
 
 #### PS3 Controller - Add steam support via USB
 1. navigate to /etc/udev/rules.d
