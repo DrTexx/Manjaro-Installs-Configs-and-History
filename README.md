@@ -8,11 +8,14 @@
 - `$ sudo pacman -S redshift` (Redshift)
 
 ### Configure
-#### Fix Slow internet
-1. Open KDE Connections Manager
-2. Change the MTU of your wired connection from 'automatic' to '1492' (bytes)
-3. Configure repos to local mirrors `$ sudo pacman-mirrors -g`
-3. Reboot
+<details>
+  <summary>Fix Slow internet</summary>
+  <ol>
+    <li>Open KDE Connections Manager</li>
+    <li>Change the MTU of your wired connection from 'automatic' to '1492' (bytes)</li>
+    <li>Configure repos to local mirrors `$ sudo pacman-mirrors -g`</li>
+    <li>Reboot</li>
+</details>
 
 ### Installs
 - `$ sudo pacman -S snapd` (Snap)
