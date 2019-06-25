@@ -86,3 +86,23 @@ Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666
 `$ git config --global user.email "[github web operations email]"`
 ##### Add name
 `$ git config --global user.name "DrTexxOfficial"`
+
+#### Git - Use SSH
+[Original Guide](https://help.github.com/en/articles/connecting-to-github-with-ssh)
+`$ sudo pacman -S xclip`
+`$ xclip -sel clip < ~/.ssh/id_rsa.pub`
+
+## Helpful commands
+### Hard-drives
+<details>
+  <summary>List hard-drive information and mount points</summary>
+  <code>lsblk</code>
+</details>
+<details>
+  <summary>How to get UUID of hard-drives</summary>
+  <code>sudo blkid</code>
+</details>
+<details>
+  <summary>Change hard-drives mounted at boot</summary>
+  Edit <code>/etc/fstab</code>
+</details>
