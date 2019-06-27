@@ -99,6 +99,9 @@ Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666
 ### AUR Installs
 - `$ ?????????????????????` Install xboxdrv via AUR (2019/06/27)
 
+### Installs
+- `$ sudo pacman -S wine` (WINE)
+
 ## Helpful commands
 ### Hard-drives
 <details>
