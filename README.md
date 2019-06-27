@@ -101,6 +101,8 @@ Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666
 
 ### Installs
 - `$ sudo pacman -S wine` (WINE)
+- `$ sudo pacman -S wine_gecko` (wine_gecko)
+- `$ sudo pacman -S winetricks` (winetricks)
 
 ## Helpful commands
 ### Hard-drives
