@@ -103,6 +103,24 @@ Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666
 - `$ sudo pacman -S wine` (WINE)
 - `$ sudo pacman -S wine_gecko` (wine_gecko)
 - `$ sudo pacman -S winetricks` (winetricks)
+- `$ sudo pacman -S cmake` (CMake)
+
+### ???
+#### Build PCSX2 from source
+Dependencies:
+lib32-bzip2
+lib32-libjpeg
+lib32-glew
+lib32-nvidia-cg-toolkit
+lib32-portaudio
+lib32-sdl
+lib32-soundtouch
+sparsehash
+
+(nevermind gave up and used AUR instead)
+
+### AUR Installs
+- `$ ????????????????` Install pcsx2-git via AUR
 
 ## Helpful commands
 ### Hard-drives
