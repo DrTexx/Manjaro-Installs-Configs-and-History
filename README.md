@@ -2,6 +2,10 @@
 
 ## Steps
 ### Installs
+
+| --- | --- |
+| Flatpak | `$ sudo pacman -S flatpak` |
+
 - `$ sudo pacman -S flatpak` (Flatpak)
 - `$ flatpak install flathub io.atom.Atom` (Atom)
 - `$ sudo pacman -S git` (Git)
@@ -89,8 +93,11 @@ Sources - [Steam Forums](https://steamcommunity.com/app/221410/discussions/0/666
 
 #### Git - Use SSH
 [Original Guide](https://help.github.com/en/articles/connecting-to-github-with-ssh)
-`$ sudo pacman -S xclip`
-`$ xclip -sel clip < ~/.ssh/id_rsa.pub`
+1. `$ sudo pacman -S xclip`
+1. `$ xclip -sel clip < ~/.ssh/id_rsa.pub`
+
+### AUR Installs
+- `$ ?????????????????????` Install xboxdrv via AUR (2019/06/27)
 
 ## Helpful commands
 ### Hard-drives
