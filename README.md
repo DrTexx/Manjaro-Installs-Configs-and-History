@@ -122,6 +122,9 @@ sparsehash
 ### AUR Installs
 - `$ ????????????????` Install pcsx2-git via AUR
 
+### Installs
+- `$ sudo pacman -S bluez-plugins` (bluez-plugins to enable PS3 controller support via bluetooth hopefully)
+
 ## Helpful commands
 ### Hard-drives
 <details>
